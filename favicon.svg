@@ -1,0 +1,48 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- left lightning -->
+  <path d="M356 235 L402 303 L432 280 L458 401 L416 334 L386 356 Z" fill="#000"/>
+
+  <!-- center lightning -->
+  <defs>
+    <linearGradient id="boltGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#385fc0"/>
+      <stop offset="100%" stop-color="#e333a8"/>
+    </linearGradient>
+  </defs>
+  <path d="M519 183 L462 310 L505 306 L496 394 L553 268 L510 272 Z" fill="url(#boltGrad)"/>
+
+  <!-- right lightning -->
+  <path d="M655 240 L556 316 L590 337 L546 397 L635 318 L601 298 Z" fill="#000"/>
+
+  <!-- robot outer body -->
+  <path
+    d="M372 422
+       H652
+       Q711 422 711 501
+       H729
+       Q744 501 744 518
+       V596
+       Q744 613 729 613
+       H711
+       Q711 708 640 708
+       H384
+       Q313 708 313 613
+       H295
+       Q280 613 280 596
+       V518
+       Q280 501 295 501
+       H313
+       Q313 422 372 422 Z"
+    fill="#000"/>
+
+  <!-- top cap -->
+  <path d="M432 420 Q432 405 455 405 H569 Q592 405 592 420 V448 H432 Z" fill="#000"/>
+
+  <!-- face screen -->
+  <rect x="354" y="465" width="316" height="199" rx="54" ry="54" fill="white"/>
+
+  <!-- eyes -->
+  <rect x="396" y="524" width="63" height="57" rx="12" fill="#000"/>
+  <rect x="542" y="524" width="63" height="57" rx="12" fill="#000"/>
+</svg>
